@@ -1,0 +1,47 @@
+{
+  "name": "polymershop",
+  "version": "1.0.0",
+  "description": "A modern e-commerce application built with Polymer and Material Design",
+  "main": "index.html",
+  "scripts": {
+    "start": "polymer serve",
+    "build": "polymer build",
+    "test": "polymer test",
+    "test:coverage": "polymer test --coverage",
+    "serve:build": "polymer serve build/unbundled",
+    "serve:bundled": "polymer serve build/bundled",
+    "lint": "polymer lint",
+    "analyze": "polymer analyze > analysis.json"
+  },
+  "keywords": [
+    "polymer",
+    "e-commerce",
+    "web-components",
+    "material-design",
+    "pwa",
+    "shop",
+    "retail"
+  ],
+  "author": "Michael Germini <michael@germini.info>",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michaelgermini/polymershop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/michaelgermini/polymershop/issues"
+  },
+  "homepage": "https://github.com/michaelgermini/polymershop#readme",
+  "devDependencies": {
+    "polymer-cli": "^1.9.11"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
